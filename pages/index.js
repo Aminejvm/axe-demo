@@ -1,4 +1,5 @@
-import Head from 'next/head'
+import Head from "next/head";
+import { AxeButton, Runner } from "../lib/axe-client";
 
 const Home = () => (
   <div className="container">
@@ -8,6 +9,8 @@ const Home = () => (
     </Head>
 
     <main>
+      <AxeButton onClick={Runner}>Axe Scan</AxeButton>
+      <img src="https://images.unsplash.com/photo-1523777813537-2d417bf101ce?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80" />
       <h1 className="title">
         Welcome to <a href="https://nextjs.org">Next.js!</a>
       </h1>
@@ -74,6 +77,11 @@ const Home = () => (
         flex-direction: column;
         justify-content: center;
         align-items: center;
+      }
+
+      main img {
+        max-width: 70ch;
+        margin: 0 auto;
       }
 
       footer {
@@ -198,6 +206,6 @@ const Home = () => (
       }
     `}</style>
   </div>
-)
+);
 
-export default Home
+export default Home;
