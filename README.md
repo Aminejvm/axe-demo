@@ -1,30 +1,24 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/zeit/next.js/tree/canary/packages/create-next-app).
+# axe-client
 
-## Getting Started
+Created: Feb 24, 2020 7:06 PM
+Created By: amine elouarti
+Last Edited By: amine elouarti
+Last Edited Time: Feb 24, 2020 7:52 PM
 
-First, run the development server:
+# Finding Element with error.
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+loop throught violations.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+{ "selector":[violations] };
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+loop throught the Map
 
-## Learn More
+- onMouseEnter.
+- update position of <Alert />.
+- update css of <Alert /> { visibility:visible,opacity: 1 }
 
-To learn more about Next.js, take a look at the following resources:
+# Content and Icons.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+we ca use the rule ID and description to populate based on the component.
 
-You can check out [the Next.js GitHub repository](https://github.com/zeit/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on ZEIT Now
-
-The easiest way to deploy your Next.js app is to use the [ZEIT Now Platform](https://zeit.co/) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+[https://github.com/dequelabs/axe-core/blob/develop/doc/rule-descriptions.md](https://github.com/dequelabs/axe-core/blob/develop/doc/rule-descriptions.md)
