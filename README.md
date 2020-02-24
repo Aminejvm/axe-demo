@@ -1,10 +1,3 @@
-# axe-client
-
-Created: Feb 24, 2020 7:06 PM
-Created By: amine elouarti
-Last Edited By: amine elouarti
-Last Edited Time: Feb 24, 2020 7:52 PM
-
 # Finding Element with error.
 
 loop throught violations.
